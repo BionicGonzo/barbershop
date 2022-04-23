@@ -1,0 +1,44 @@
+article {
+    font-family: 'Roboto', sans-serif;
+
+    p {
+        font-size: 18px;
+        color: #222323;
+    }
+
+    div {
+        p {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 50px;
+            color: #222323;
+        }
+
+        span {
+            color: $nemo;
+        }
+    }
+}
+
+section {
+    h4 {
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        color: $negro;
+    }
+
+    h5 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 30px;
+        color: $nemo;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        line-height: 40px;
+        color: #707070;
+    }
+}

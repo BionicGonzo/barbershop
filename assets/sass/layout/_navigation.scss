@@ -1,0 +1,18 @@
+body {
+    nav {
+        background-color: $negro;
+        padding: 20px 0 !important;
+
+        a {
+            img {
+                @extend .logo;
+            }
+        }
+        
+        ul {
+            a:hover {
+                color: $nemo !important;
+            }
+        }
+    }
+}
